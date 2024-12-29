@@ -1,63 +1,162 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta name="description" content="Portfolio of Swajeet Chikhali, a passionate web developer skilled in web development, C++, Python, JavaScript, and algorithms.">
+    <meta name="keywords" content="Swajeet Chikhali, portfolio, web developer, DAA project, KLE Technological University">
+    <meta name="author" content="Swajeet Chikhali">
+    <meta property="og:title" content="Swajeet Chikhali - Web Developer Portfolio">
+    <meta property="og:description" content="Explore my skills, project, and contact details.">
+    <meta property="og:image" content="your-image-link-here.jpg">
+    <meta property="og:url" content="your-portfolio-link">
+    <title>J Nithish - Portfolio</title>
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/a9cdbedf57.js" crossorigin="anonymous"></script>
+
+    <!-- Styling CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- External Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
+
 <body>
+    <!-- Skip to content link -->
+    <a href="#home" class="skip-to-content">Skip to content</a>
+
     <header>
-        <h1>Hello, I'm Swajeet Chikhali 👋</h1>
-        <p>As a student passionate about technology and problem-solving, I'm developing skills to create innovative solutions. 
-          My coursework and projects focus on practical application and effective problem resolution.:</p>
+        <div>
+            <a href="./index.html"><span class="logo">MY PORTFOLIO</span></a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
-    <section>
-        <h2>🛠️ Projects</h2>
-        <ul>
-            <li><strong>Project</strong>:Efficiently manage and allocate electricity to match the specific energy needs of an area.</li>
-        </ul>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div>
+                <div>
+                    <h4 title="Hello, How are you?">Hi, There!👋</h4>
+                    <h2 class="hero-section__title">I'm <span>Swajeet Chikhali</span></h2>
+                    <p class="hero-section__desc">As a student passionate about technology and problem-solving, I'm developing skills to create innovative solutions. 
+                                                  My coursework and projects focus on practical application and effective problem resolution.</p>
+                </div>
+            </div>
+        </section>
 
-        <h2>🚀 Skills</h2>
-        <ul>
-            <li>C++, Python, JavaScript</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Web Development(HTML, CSS, JavaScript,.php)</li>
-        </ul>
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <dl>
+                    <dt><b>Name</b></dt>
+                    <dd>Swajeet Chikhali</dd>
+                    <dt><b>SRN</b></dt>
+                    <dd>01FE23BCI070</dd>
+                    <dt><b>Course Name</b></dt>
+                    <dd>Design And Analysis Of Algorithms</dd>
+                    <dt><b>Course Code</b></dt>
+                    <dd>24ECAC203</dd>
+                    <dt><b>Course Instructor</b></dt>
+                    <dd>K.M.M.Rajashekharaiah</dd>
+                    <dt><b>University</b></dt>
+                    <dd>KLE Technological University</dd>
+                    <dt><b>Portfolio Topic/Domain</b></dt>
+                    <dd>DAA Course Project</dd>
+                </dl>
 
-        <h2>🌐 Find Me Online</h2>
-        <ul>
-            <li><a href="https://github.com/Swajeeet">Swajeet</a></li>
-            <li><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
-        </ul>
+                <h3>🚀 Skills</h3>
+                <ul>
+                    <li><i class="fas fa-code"></i> C++, Python, JavaScript</li>
+                    <li><i class="fas fa-database"></i> Data Structures and Algorithms</li>
+                    <li><i class="fas fa-laptop-code"></i> Web Development (MERN Stack)</li>
+                </ul>
 
-        <h2>Portfolio Topic</h2>
-        <dl>
-            <dt>Course Name</dt>
-            <dd>Design And Analysis Of Algorithms</dd>
+            </div>
+        </section>
 
-            <dt>Course Code</dt>
-            <dd>24ECAC203</dd>
+        <!-- Project Section -->
+        <section class="project-section" id="project">
+            <h2>🛠️ Projects</h2>
+            <div class="project-card">
+                <h3>Project 1:</h3>
+                <div class="project-card-box">
+                    <div class="project-card-box__icons">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="project-card-box__desc">
+                        <h3>Smart Power Distribution</h3>
+                        <p>Optimizing Electricity Efficiency for Specific Area Needs</p>
+                    </div>
+                    <div class="project-card-box__buttons">
+                        <a href="https://1drv.ms/w/c/6e76cd275c1f0620/EW7nXCLktjJPiPa5R3WHWM0BgBaWZ_5aeVa0hEFIJPDR7A?e=dJLKTx" target="_blank" rel="noopener" class="btn btn-primary">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+                
+                <h3>Theory Reflections:</h3>
+                <div class="project-card-box">
+                    <div class="project-card-box__icons">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="project-card-box__desc">
+                        <h3>Dynamic Algorithms Portfolio</h3>
+                        <p>An interactive portfolio showcasing algorithm case studies and implementations.</p>
+                    </div>
+                    <div class="project-card-box__buttons">
+                        <a href="https://github.com/yourusername/project-repo" target="_blank" rel="noopener" class="btn btn-primary">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-            <dt>Name</dt>
-            <dd>Swajeet Chikhali</dd>
+    <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2>🌐 Find Me Online</h2>
+            <div class="contact-content">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Swajeeet" target="_blank" rel="noopener" aria-label="Visit my GitHub Profile">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/https://www.linkedin.com/feed/" target="_blank" rel="noopener" aria-label="Visit my LinkedIn Profile">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-            <dt>SRN</dt>
-            <dd>01FE23BCI070</dd>
 
-            <dt>Course Instructor</dt>
-            <dd>K.M.M.Rajashekharaiah</dd>
+    <footer>
+        <p>
+            Copyright &copy; <span id="year"></span>
+            <a href="https://github.com/Swajeeet" target="_blank" rel="noopener">Swajeet Chikhali</a> - All Rights Reserved.
+        </p>
+    </footer>
 
-            <dt>University</dt>
-            <dd>KLE Technological University</dd>
-
-            <dt>Portfolio Topic/Domain</dt>
-            <dd>DAA Course Project</dd>
-        </dl>
-
-        <blockquote>"Algorithms are just opinions embedded in code."</blockquote>
-    </section>
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
 </body>
+
 </html>
